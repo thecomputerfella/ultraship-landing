@@ -356,30 +356,32 @@ export default function Home() {
         </section>
         {/* CONTACT US SECTION */}
         <section className={styles.contactSection}>
-          <div className={styles.contactContent}>
-            <div className={styles.contactHeading}>
-              Turn your logistics network from cost center to secret weapon
+          <div className={styles.contactContainer}>
+            <div className={styles.contactContent}>
+              <div className={styles.contactHeading}>
+                Turn your logistics network from cost center to secret weapon
+              </div>
+              <div className={styles.contactDesc}>
+                Unlock the potential of your supply chain. Get started with an
+                assessment and benchmark of your network.
+              </div>
             </div>
-            <div className={styles.contactDesc}>
-              Unlock the potential of your supply chain. Get started with an
-              assessment and benchmark of your network.
-            </div>
+            <form name="contact" className={styles.contactForm}>
+              <div className={styles.inputContainer}>
+                <label>Full Name</label>
+                <input type="text" placeholder="Type full name"></input>
+              </div>
+              <div className={styles.inputContainer}>
+                <label>Email Address</label>
+                <input type="text" placeholder="Type email address"></input>
+              </div>
+              <div className={styles.inputContainer}>
+                <label>Company Name</label>
+                <input type="text" placeholder="Type company name"></input>
+              </div>
+              <button type="submit">Let's Talk</button>
+            </form>
           </div>
-          <form name="contact" className={styles.contactForm}>
-            <div className={styles.inputContainer}>
-              <label>Full Name</label>
-              <input type="text" placeholder="Type full name"></input>
-            </div>
-            <div className={styles.inputContainer}>
-              <label>Email Address</label>
-              <input type="text" placeholder="Type email address"></input>
-            </div>
-            <div className={styles.inputContainer}>
-              <label>Company Name</label>
-              <input type="text" placeholder="Type company name"></input>
-            </div>
-            <button type="submit">Let's Talk</button>
-          </form>
         </section>
         {/* FOOTER SECTION */}
         <footer className={styles.footer}>

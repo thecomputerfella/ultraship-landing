@@ -285,11 +285,17 @@
   min-height: 35em;
   max-height: 60em;
   display: flex;
-  padding-left: 20em;
-  padding-right: 20em;
+  /* flex-direction: row; */
+  padding-left:15em;
+  padding-right: 15em;
   align-items: center;
   justify-content: center;
+}
+.contactContainer{
+  max-width: 80em;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   /* border: 2px solid fuchsia; */
 }
 .contactContent{
