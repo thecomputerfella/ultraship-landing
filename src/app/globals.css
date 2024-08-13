@@ -99,6 +99,34 @@ a {
   color: inherit;
   text-decoration: none;
 }
+/* NAVBAR COMPONENT CSS */
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+  /* background-color: white; */
+  width: 100%;
+  /* width: 100vw    ; */
+  /* border: purple 2px solid; */
+  z-index: 1000; 
+}
+
+header.scrolled{
+  border-bottom: 0.5px solid #eeeeee29;
+  background-color: green;
+
+  /* From https://css.glass */
+  background: rgba(62, 62, 62, 0.434);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(2.2px);
+}
+/* -----------XXXXXXX----------- */
+
+
 
 @media (prefers-color-scheme: dark) {
   html {
